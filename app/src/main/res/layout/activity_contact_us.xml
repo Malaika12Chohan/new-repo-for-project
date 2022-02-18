@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper1"
+    tools:context=".ContactUs">
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:background="@drawable/background">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100sp"
+        android:layout_height="152dp"
+        android:layout_below="@id/App_name"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-23dp"
+        android:layout_marginEnd="159dp"
+        android:baselineAlignBottom="true"
+        android:paddingBottom="@dimen/cardview_default_radius"
+        app:srcCompat="@drawable/applog">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/App_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@color/black"
+        android:text="Ali Gold Smith"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Contact"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-41dp"
+        android:layout_marginEnd="6dp"
+        android:text="Contact Us"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Contact"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/textshape"
+        android:drawableLeft="@drawable/email"
+        android:hint="Type your Email"
+        android:minHeight="58dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="338dp"
+        android:layout_height="163dp"
+        android:layout_below="@id/email"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/textshape"
+        android:drawableLeft="@drawable/message"
+        android:hint="Type your Message"
+        android:inputType="textMultiLine"
+
+        android:minHeight="58dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/buttunshape"
+        android:gravity="center"
+        android:text=" Send  "
+        android:textColor="@color/white"
+        android:textSize="30sp"></Button>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+    />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+         />
+</RelativeLayout>
