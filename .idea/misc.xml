@@ -5,7 +5,11 @@
       <map>
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11614583333333334" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/aboutus.xml" value="0.2203125" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/addblack.xml" value="0.1" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/backarow.xml" value="0.12" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/background.xml" value="0.13020833333333334" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/backgroundbottomsheet.xml" value="0.12" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/backgroundgold.xml" value="0.12" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/billing.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/buttunshape.xml" value="0.2431640625" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/carticon.xml" value="0.2203125" />
@@ -13,6 +17,8 @@
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/chaticon.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/contacticon.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/dashboard_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/dollar.xml" value="0.12" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/edit_text.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/email.xml" value="0.21614583333333334" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/favorite.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/hidden_items.xml" value="0.12447916666666667" />
@@ -24,13 +30,21 @@
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/ic_user.xml" value="0.11614583333333334" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/ic_user1.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/ic_userr.xml" value="0.2203125" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/login.xml" value="0.2203125" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/login_button.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/loginactivitybackground.xml" value="0.11822916666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/message.xml" value="0.12447916666666667" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/nav_favorite.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/nav_search.xml" value="0.2203125" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/profile.xml" value="0.2203125" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/shopp.xml" value="0.1625" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/textshape.xml" value="0.2203125" />
-        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_categories.xml" value="0.11145833333333334" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/drawable/vi_big.xml" value="0.2203125" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/font/font.xml" value="0.2064814814814815" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_aboutuspage.xml" value="0.17222222222222222" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_categories.xml" value="0.22" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_category_gold.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_contact_us.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_dashboard.xml" value="0.24150268336314848" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_dashboard1.xml" value="0.25" />
@@ -39,12 +53,27 @@
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_main2.xml" value="0.2" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_navigation_bar.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_review.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_shop.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/activity_splash.xml" value="0.2" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/dialog_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment__my__cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment_cart.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment_my_cart.xml" value="0.22" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment_product.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment_serch.xml" value="0.10208333333333333" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/fragment_shop.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/image_view.xml" value="0.1140625" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/item_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/login.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/login_tab_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/mycart_design.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/shop_row.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/layout/signup_tab_fragment.xml" value="0.1" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/menu/bottom_navigation.xml" value="0.20416666666666666" />
         <entry key="..\:/6thSemester/MobileApplicationAndDevelopment/MAD LAB/Ali Gold Smith/app/src/main/res/menu/contactusmenu.xml" value="0.20416666666666666" />
       </map>

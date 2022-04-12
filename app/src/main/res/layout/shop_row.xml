@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+<variable
+    name="product"
+    type="aligoldsmith.com.models.product" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/product_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/walpaper2" />
+
+
+        <TextView
+            android:id="@+id/productnsme_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{product.name}"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/pricetextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="@{String.valueOf(product.price)+`$`}" />
+
+
+        <TextView
+            android:id="@+id/availabletextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@{product.available ? `Available` : `out of stock`}"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textColor="@color/green" />
+
+        <Button
+            android:id="@+id/Add_To_cart_btn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:enabled="@{product.available}"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="@color/purple1"
+            android:text="Add to Cart" />
+    </LinearLayout>
+</layout>

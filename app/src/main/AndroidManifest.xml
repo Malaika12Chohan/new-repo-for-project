@@ -12,22 +12,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AliGoldSmith">
         <activity
-            android:name=".NavigationBar"
+            android:name=".Views.ShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCart"
+            android:exported="false" />
+        <activity
+            android:name=".Review"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryGold"
             android:exported="false" />
         <activity
             android:name=".ContactUs"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name=".Categories"
+            android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aboutuspage"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationBar"
             android:exported="false" />
         <activity
             android:name=".splash"

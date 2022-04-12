@@ -1,64 +1,86 @@
 package aligoldsmith.com;
 
-import android.os.Bundle;
 
-import androidx.fragment.app.Fragment;
+import android.content.Intent;
+import android.os.Bundle;
 
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Dashboard#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class Dashboard extends Fragment {
+import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+import aligoldsmith.com.Views.ShopActivity;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public Dashboard() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Dashboard.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static Dashboard newInstance(String param1, String param2) {
-        Dashboard fragment = new Dashboard();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
+public class Dashboard extends Fragment implements OnClickListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.dashboard, container, false);
+        View view = inflater.inflate(R.layout.dashboard, container, false);
+
+        return view;
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+
+        CardView about = (CardView) getActivity().findViewById(R.id.aboutus);
+        CardView category = (CardView) getActivity().findViewById(R.id.Category);
+        CardView contact = (CardView) getActivity().findViewById(R.id.Contact);
+        CardView review = (CardView) getActivity().findViewById(R.id.cardreview);
+        CardView cart = (CardView) getActivity().findViewById(R.id.addTOcart);
+        CardView shop = (CardView) getActivity().findViewById(R.id.Shop);
+
+
+        about.setOnClickListener(this);
+        category.setOnClickListener(this);
+        contact.setOnClickListener(this);
+        review.setOnClickListener(this);
+        cart.setOnClickListener(this);
+        shop.setOnClickListener(this);
+
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.aboutus:
+                Intent intent = new Intent(getActivity(), aboutuspage.class);
+                startActivity(intent);
+                break;
+            case R.id.Category:
+                Intent i = new Intent(getActivity(), Categories.class);
+                startActivity(i);
+
+                break;
+            case R.id.Contact:
+                Intent in = new Intent(getActivity(), ContactUs.class);
+                startActivity(in);
+
+                break;
+            case R.id.cardreview:
+                Intent inte = new Intent(getActivity(), Review.class);
+                startActivity(inte);
+
+                break;
+            case R.id.addTOcart:
+                Intent myIntent = new Intent(v.getContext(), ActivityCart.class);
+                startActivity(myIntent);
+
+                break;
+            case R.id.Shop:
+                Intent iIntent = new Intent(v.getContext(), ShopActivity.class);
+                startActivity(iIntent);
+
+                break;
+
+
+
+        }
+
     }
 }

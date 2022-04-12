@@ -37,9 +37,9 @@ public class splash extends AppCompatActivity {
 
             public void run() {try {
 
-                sleep(6000);
+                sleep(4000);
 
-                startActivity(new Intent(getApplicationContext(),NavigationBar.class));
+                startActivity(new Intent(getApplicationContext(),LoginActivity.class));
 
                 finish();
 

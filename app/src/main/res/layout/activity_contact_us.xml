@@ -1,134 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/walpaper1"
     tools:context=".ContactUs">
-    <View
-        android:id="@+id/view1"
-        android:layout_width="match_parent"
-        android:layout_height="202dp"
-        android:background="@drawable/background">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/pink"
+        app:layout_constraintHeight_percent=".27"
+        android:scaleType="centerCrop"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    </View>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/vi_big"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".78"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:hint="Email"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.18"
+            app:layout_constraintWidth_percent=".8" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="347dp"
+            android:layout_height="182dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Type Your Message Here"
+
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:backgroundTint="@color/white"
+            android:elevation="35dp"
+            android:src="@drawable/fb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.313" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="48dp"
+            android:backgroundTint="@color/white"
+            android:elevation="35dp"
+            android:src="@drawable/gmail"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fab_facebook"
+            app:layout_constraintHorizontal_bias="0.815"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintVertical_bias="0.313" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_tweeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:backgroundTint="@color/white"
+            android:elevation="35dp"
+            android:src="@drawable/phone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.678"
+            app:layout_constraintStart_toEndOf="@+id/fab_facebook"
+
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/logo"
-        android:layout_width="100sp"
-        android:layout_height="152dp"
-        android:layout_below="@id/App_name"
-        android:layout_alignParentEnd="true"
-        android:layout_gravity="center"
-        android:layout_marginTop="-23dp"
-        android:layout_marginEnd="159dp"
-        android:baselineAlignBottom="true"
-        android:paddingBottom="@dimen/cardview_default_radius"
-        app:srcCompat="@drawable/applog">
-
-
-    </ImageView>
+        android:id="@+id/imglogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/applog"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintBottom_toTopOf="@+id/constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image"
+        />
 
     <TextView
-        android:id="@+id/App_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:background="@color/black"
-        android:text="Ali Gold Smith"
-        android:textAlignment="center"
+        android:id="@+id/tv1"
+        android:layout_width="268dp"
+        android:layout_height="38dp"
         android:textColor="@color/white"
-        android:textSize="30dp"
         android:textStyle="bold"
-
-        >
-
-    </TextView>
-
-    <TextView
-        android:id="@+id/Contact"
-        android:layout_width="185dp"
-        android:layout_height="50dp"
-        android:layout_below="@id/logo"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="-41dp"
-        android:layout_marginEnd="6dp"
-        android:text="Contact Us"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:textStyle="bold">
-
-    </TextView>
-
-
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="351dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/Contact"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="18dp"
-        android:background="@drawable/textshape"
-        android:drawableLeft="@drawable/email"
-        android:hint="Type your Email"
-        android:minHeight="58dp"
-        android:textAlignment="center"
-        android:textColorHint="@color/black"
-        android:textSize="30sp">
-
-    </EditText>
-
-    <EditText
-        android:id="@+id/message"
-        android:layout_width="338dp"
-        android:layout_height="163dp"
-        android:layout_below="@id/email"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/textshape"
-        android:drawableLeft="@drawable/message"
-        android:hint="Type your Message"
-        android:inputType="textMultiLine"
-
-        android:minHeight="58dp"
-        android:textAlignment="center"
-        android:textColorHint="@color/black"
-        android:textSize="30sp">
-
-    </EditText>
-
-    <Button
-        android:id="@+id/Send"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/message"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="135dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="22dp"
-        android:background="@drawable/buttunshape"
+        android:textSize="25sp"
         android:gravity="center"
-        android:text=" Send  "
+        android:text="Contact Us"
+        app:layout_constraintBottom_toTopOf="@+id/constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imglogo"
+        />
+    <TextView
+        android:layout_width="268dp"
+        android:layout_height="38dp"
         android:textColor="@color/white"
-        android:textSize="30sp"></Button>
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Contact Us"
+        app:layout_constraintBottom_toTopOf="@+id/constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imglogo"
+        />
 
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-    />
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:layout_alignParentBottom="true"
-         />
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

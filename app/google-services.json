@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178288834763",
+    "project_id": "ali-gold-smith-app",
+    "storage_bucket": "ali-gold-smith-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178288834763:android:f2a2aa7b00abcc4464434e",
+        "android_client_info": {
+          "package_name": "aligoldsmithshop.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178288834763-6jsirncpr2kbs7hu328m4dcp4o596ff3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1I2_Z0hFbHZBy3yJ_dfB68WqVFxh3QV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178288834763-6jsirncpr2kbs7hu328m4dcp4o596ff3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
