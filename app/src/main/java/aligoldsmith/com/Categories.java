@@ -1,13 +1,12 @@
 package aligoldsmith.com;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class Categories extends AppCompatActivity {
     ImageView backbtn;
@@ -34,8 +33,6 @@ public class Categories extends AppCompatActivity {
         goldcard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Categories.this,CategoryGold.class);
-                startActivity(intent);
 
             }
         });

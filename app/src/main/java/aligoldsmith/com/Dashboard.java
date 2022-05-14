@@ -12,8 +12,6 @@ import android.view.ViewGroup;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
-import aligoldsmith.com.Views.ShopActivity;
-
 public class Dashboard extends Fragment implements OnClickListener {
 
     @Override
@@ -31,16 +29,25 @@ public class Dashboard extends Fragment implements OnClickListener {
         CardView category = (CardView) getActivity().findViewById(R.id.Category);
         CardView contact = (CardView) getActivity().findViewById(R.id.Contact);
         CardView review = (CardView) getActivity().findViewById(R.id.cardreview);
-        CardView cart = (CardView) getActivity().findViewById(R.id.addTOcart);
         CardView shop = (CardView) getActivity().findViewById(R.id.Shop);
+        CardView home = (CardView) getActivity().findViewById(R.id.home1);
+        CardView cart = (CardView) getActivity().findViewById(R.id.addTOcart);
+        CardView favour = (CardView) getActivity().findViewById(R.id.favr);
+
+
+
 
 
         about.setOnClickListener(this);
         category.setOnClickListener(this);
         contact.setOnClickListener(this);
         review.setOnClickListener(this);
-        cart.setOnClickListener(this);
         shop.setOnClickListener(this);
+        home.setOnClickListener(this);
+        cart.setOnClickListener(this);
+        favour.setOnClickListener(this);
+
+
 
 
     }
@@ -49,34 +56,40 @@ public class Dashboard extends Fragment implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.aboutus:
-                Intent intent = new Intent(getActivity(), aboutuspage.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(getActivity(), aboutuspage.class);
+                startActivity(intent1);
                 break;
             case R.id.Category:
-                Intent i = new Intent(getActivity(), Categories.class);
-                startActivity(i);
+                Intent i2 = new Intent(getActivity(), Categories.class);
+                startActivity(i2);
 
                 break;
             case R.id.Contact:
-                Intent in = new Intent(getActivity(), ContactUs.class);
-                startActivity(in);
+                Intent in3 = new Intent(getActivity(), ContactUs.class);
+                startActivity(in3);
 
                 break;
             case R.id.cardreview:
-                Intent inte = new Intent(getActivity(), Review.class);
-                startActivity(inte);
-
-                break;
-            case R.id.addTOcart:
-                Intent myIntent = new Intent(v.getContext(), ActivityCart.class);
-                startActivity(myIntent);
+                Intent inte4 = new Intent(getActivity(), Review.class);
+                startActivity(inte4);
 
                 break;
             case R.id.Shop:
-                Intent iIntent = new Intent(v.getContext(), ShopActivity.class);
-                startActivity(iIntent);
+                Intent iIntent5 = new Intent(v.getContext(), MainActivity.class);
+                startActivity(iIntent5);
 
                 break;
+            case R.id.home1:
+                Intent iIntenty6 = new Intent(v.getContext(), MainActivity1.class);
+                startActivity(iIntenty6);
+                break;
+            case R.id.addTOcart:
+                Intent iIntenty7 = new Intent(v.getContext(), SummaryActivity.class);
+                startActivity(iIntenty7);
+                break;
+            case R.id.favr:
+                Intent iIntenty8 = new Intent(v.getContext(), fav.class);
+                startActivity(iIntenty8);
 
 
 

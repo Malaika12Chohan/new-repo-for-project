@@ -1,7 +1,20 @@
 <resources>
     <string name="app_name">Ali Gold Smith</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="name">Name</string>
+
+
+    <string name="SilverDes">Silver is a relatively soft,
+        shiny metal. It tarnishes slowly in air as sulfur compounds react with the surface forming black silver sulfide. Uses.
+        Sterling silver contains 92.5% silver.
+        The rest is copper or some other metal.</string>
+
+
+    <string name="PlateniumDes"> A very heavy, precious, silver-white metal, platinum is soft and ductile and has a high melting point and good resistance to corrosion and chemical attack.  </string>
+
+
+    <string name="GoldDes">gold is a transition metal and a group 11 element. It is one of the least reactive chemical elements and is solid under standard conditions.</string>
+
+
+    <string name="DiamondDes">Diamond, a mineral composed of pure carbon. It is the hardest naturally occurring substance known</string>
+
 
 </resources>

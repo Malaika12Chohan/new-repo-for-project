@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <item
@@ -16,17 +17,14 @@
         android:icon="@drawable/profile"
         android:title="Profile"
         android:visible="true" />
-    <item
-        android:id="@+id/nav_favorite"
-        android:checkable="false"
-        android:enabled="true"
-        android:icon="@drawable/nav_favorite"
-        android:title="Favorite"
-        android:visible="true" />
+
     <item
         android:id="@+id/nav_search"
         android:enabled="true"
         android:icon="@drawable/nav_search"
         android:title="Search"
-        android:visible="true" />
+        android:visible="true"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
 </menu>

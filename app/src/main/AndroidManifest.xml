@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="aligoldsmith.com">
+    package="aligoldsmith.com" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -10,18 +12,18 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/applog"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AliGoldSmith">
+        android:theme="@style/Theme.AliGoldSmith" >
         <activity
-            android:name=".Views.ShopActivity"
+            android:name=".fav"
             android:exported="false" />
         <activity
-            android:name=".ActivityCart"
+            android:name=".Thankyou"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
             android:exported="false" />
         <activity
             android:name=".Review"
-            android:exported="false" />
-        <activity
-            android:name=".CategoryGold"
             android:exported="false" />
         <activity
             android:name=".ContactUs"
@@ -39,14 +41,35 @@
             android:name=".NavigationBar"
             android:exported="false" />
         <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name=".LatteActivity" />
+        <activity android:name=".SummaryActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity
             android:name=".splash"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name=".Database.OrderProvider"
+            android:authorities="com.example.aligoldsmith.com"
+            android:exported="true" />
     </application>
 
 </manifest>
